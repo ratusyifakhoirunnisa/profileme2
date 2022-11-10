@@ -1,0 +1,66 @@
+#wrapper{
+    max-width: 500px;
+    background-image: url(pink.jpg);
+}
+
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.link{
+    width: 500px;
+    height: 50px;
+    border: solid 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.kotak:hover{
+    background-color: black;
+}
+
+.header{
+    text-align: center;
+    font-size: 35px;
+}
+.header h3{
+    color: lightcoral;
+}
+.header img{
+    width: 150px;
+    border-radius: 150%;
+    padding: 10px;
+}
+
+.link{
+    background-color: pink;
+    color: black;
+    border: 2px solid black;/*green*/
+}
+
+.link{
+    transition-duration: 0.4s;
+}
+
+.link:hover{
+    background-color: plum;/*green*/
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
